@@ -1,1 +1,244 @@
-=AEQABEQABEQABEQAVWZyZ0c1RnbhJHcB1SLt0SLt0SLjMyIjMyIwMyIjMyIjAzIjMyIjMCKogCKogSMhESIh8kUBx0QjMyIjMyIogCKogCKwAzM3oTMuAjLw4yNyETIhESIyJmLt92Yu8mchx2YvJXalZXYoNWIhESIhESIhESIhESMhESIhETIhESIyJWIhESIwESIhECMhESIhMDN0ESIhESIhESI04COugjL4ESIhECOugjL44COhESIhInYu02bj5ybyFGbj9mcpVmdhh2YhESIh0lZsJ3Yb1lZsJ3YbRXZrN2bzJWZ3BiOlRWYydGc11lZsJ3YbVGZhJ3ZwVHI642bpR3Yl5mbvNUXmxmcjVmbpxmbv5ibwZncvNnbh1mLlNHI6Q3cvhULkJXY3J3bG1CWdZGbyNWZulGbu9mLuBndy92cuFWbuU2cgoDdz9GSdZGbyN2Wx4SMvAFVUhEIyJmLt92Yu8mchx2YvJXalZXYoN2LvoTauNHIUV0RhESIhwUQTJVRWlkTVFSIhEyTSFETDhCKogCKoETIhESINlEVt8kVJZ1IjMyIjMCKogCKogCMwMzN6EjLw4CMucjMxESIhESbvNmLlJXYsZGZ19Gbj5ycq5GZjFSIhESIhESIhESIhETIhESIxESIhEiciFSIhECMhESIhATIhESIzQDNhESIhESIhECNugjL44COhESIhgjL44COugTIhESI0kjL4EjL2EjL0ATMhESIh0lZsJ3Yb1lZsJ3YbN3dgoTZkFmcnBXVdZGbyN2WlZXasFWLwVWZLBiOu9Wa0NWZu52bD1lZsJ3YbVmbpxmbv5ibwZncvNnbh1mLlNHI6Q3cvhUXmxmcjtVMuEzLQRFVIBSbvNmLlJXYsZGZ19Gbj5ycq5GZj9yL6M3c3BCVFdUIhESIMF0USVkVP5UVhESIh0USU1yTWlkV
+{
+  "Version": "1.0.1",
+  "ReleaseNotes": "",
+  "UrlUpdate": "https://raw.githubusercontent.com/aldawud/aldawud/main/Payload%20Update",
+  "Sms": "https://raw.githubusercontent.com/aldawud/aldawud/main/UPDATE%20Tem",
+  "EmailFeedback": "abo3snhd@gmail.com",
+  "UrlContato": "https://t.me/aldawud",
+  "UrlTermos": "https://kiritosshxd.github.io/Conecta4g_site/termos.html",
+  "CheckUser": "true",
+  "FormatCheck": "yyyymmdd",
+  "Udp": [
+    {
+      "Porta": "7300"
+    },
+    {
+      "Porta": "7400"
+    },
+    {
+      "Porta": "7500"
+    },
+    {
+      "Porta": "7600"
+    },
+    {
+      "Porta": "7700"
+    }
+  ],
+  "Servers": [
+    {
+      "Name": "CONECTA4G | PLUS",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "exemplo01.dominio.xyz",
+      "CheckUser": "http://exemplo01.dominio.xyz:2095/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+    {
+      "Name": "PREMIUM 01 | PLUS",
+      "TYPE": "free",
+      "FLAG": "br.png",
+      "ServerIP": "se.mansorvpn.online",
+      "CheckUser": "http://exemplo02.dominio.xyz:8989/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    }
+  ],
+  "Networks": [
+    {
+      "Name": "?",
+      "FLAG": "vivo",
+      "Payload": "GET wss://mobilidade.cloud.caixa.gov.br [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.16.56.6",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "VIVO TLS 02",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "[app_host]",
+      "TlsIP": "104.18.7.80",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "TIM PROXY 01",
+      "FLAG": "tim",
+      "Payload": "GET wss://mobilidade.cloud.caixa.gov.br [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.16.56.6",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "TIM TLS 02",
+      "FLAG": "tim",
+      "Payload": "GET ssl://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection[crlf]Upgrade: websocket[crlf]Upgrade: WebSocket[crlf][crlf]Connection: Upgrade[crlf]",
+      "SNI": "mobilidade.cloud.caixa.gov.br",
+      "TlsIP": "mobilidade.cloud.caixa.gov.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "TIM TLS 03",
+      "FLAG": "tim",
+      "Payload": "GET wss://m.timbancavirtual.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "m.timbancavirtual.com.br",
+      "TlsIP": "m.timbancavirtual.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "TIM TLS 04",
+      "FLAG": "tim",
+      "Payload": "GET wss://cdnjs.cloudflare.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "cdnjs.cloudflare.com",
+      "TlsIP": "cdnjs.cloudflare.com",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "TIM TLS 05",
+      "FLAG": "tim",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "[app_host]",
+      "TlsIP": "104.16.19.94",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "TIM PYTHON/SOCKS 06",
+      "FLAG": "tim",
+      "Payload": "ACL HTTP/1.1[lf]Host: google.es[lf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "",
+      "ProxyPort": "80",
+      "Info": "Direct"
+    },
+    {
+      "Name": "TIM PYTHON/SOCKS 07",
+      "FLAG": "tim",
+      "Payload": "ACL buzzfeed.com HTTP/1.1[lf]Host:buzzfeed.com[lf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "",
+      "ProxyPort": "80",
+      "Info": "Direct"
+    },
+    {
+      "Name": "TIM PYTHON/SOCKS 08",
+      "FLAG": "tim",
+      "Payload": "HTTP/ 2\nHOST : m.opera.com\n\n",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "",
+      "ProxyPort": "80",
+      "Info": "Direct"
+    },
+    {
+      "Name": "TIM PYTHON/SOCKS 09",
+      "FLAG": "tim",
+      "Payload": "HTTP/1.1 [lf]CONNECT HTTP/1.1[lf][lf]|[lf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "",
+      "ProxyPort": "80",
+      "Info": "Direct"
+    },
+    {
+      "Name": "CLARO TLS 01",
+      "FLAG": "claro",
+      "Payload": "GET ssl://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection[crlf]Upgrade: websocket[crlf]Upgrade: WebSocket[crlf][crlf]Connection: Upgrade[crlf]",
+      "SNI": "mobilidade.cloud.caixa.gov.br",
+      "TlsIP": "mobilidade.cloud.caixa.gov.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "CLARO TLS 02",
+      "FLAG": "claro",
+      "Payload": "GET ssl://parceirosclaro.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection[crlf]Upgrade: websocket[crlf]Upgrade: WebSocket[crlf][crlf]Connection: Upgrade[crlf]",
+      "SNI": "parceirosclaro.com.br",
+      "TlsIP": "parceirosclaro.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "CLARO SSL 03",
+      "FLAG": "claro",
+      "Payload": "",
+      "SNI": "dns.web.whatsapp.com",
+      "TlsIP": "",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Ssl"
+    },
+    {
+      "Name": "CLARO SSL 04",
+      "FLAG": "claro",
+      "Payload": "",
+      "SNI": "m.waze.com",
+      "TlsIP": "",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Ssl"
+    },
+    {
+      "Name": "CLARO SSL 05",
+      "FLAG": "claro",
+      "Payload": "",
+      "SNI": "web.whatsapp.com",
+      "TlsIP": "",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Ssl"
+    },
+    {
+      "Name": "CLARO SSL 06",
+      "FLAG": "claro",
+      "Payload": "",
+      "SNI": "m.twitter.com",
+      "TlsIP": "",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Ssl"
+    },
+    {
+      "Name": "OI PROXY 01",
+      "FLAG": "oi",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.16.56.6",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "OI TLS 02",
+      "FLAG": "oi",
+      "Payload": "GET ssl://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection[crlf]Upgrade: websocket[crlf]Upgrade: WebSocket[crlf][crlf]Connection: Upgrade[crlf]",
+      "SNI": "mobilidade.cloud.caixa.gov.br",
+      "TlsIP": "mobilidade.cloud.caixa.gov.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    }
+  ]
+}
